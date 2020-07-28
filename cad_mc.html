@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Cadastro de membros e congregados</title>
+	<link href="conf.css" rel="stylesheet"/>
+	
+</head>
+
+<body>
+	<form name="formteste" action="processa.php" method="post">
+
+		<h1>Contato</h1>
+
+		<p class="nome">
+			<input type="text" name="nome" placeholder="informe seu nome" required="required">
+		</p>
+
+		<p class="telefone">
+			<input type="tel" name="telefone" placeholder="informe seu telefone" required="required">
+		</p>
+
+		<p class="membro">
+			<input type="text" name="membro" placeholder="É batizado nas aguas?" required="required">
+		</p>
+		
+		<p class="batizado">
+			<input type="text" name="batizado" placeholder="É Batizado no Espirito Santo?" required="required">
+		</p>
+		
+		<p class="data">
+			<input type="date" name="data" placeholder="Data de nascimento" required="required">
+		</p>
+
+		<p class="Endereço">
+			<textarea name="endereco" placeholder="Informe seu endereço"></textarea>
+		</p>
+
+		<p class="enviar">
+			<input type="submit" name="enviar" value="Enviar">
+		</p>	
+		
+		<p>
+			<a href="menu.html">Voltar ao Menu</a>
+		</p>
+			
+		
+	</form>	
+
+</body>
+</html>
