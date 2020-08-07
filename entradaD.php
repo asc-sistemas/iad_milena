@@ -5,7 +5,7 @@ $nome = $_POST['nome'];
 $valor = $_POST['valor'];
 $dataN = $_POST['data'];
 
-$sql = "INSERT INTO cofre(id, nome, data, valor)VALUES('','$nome', '$dataN', '$valor')";
+$sql = "INSERT INTO cofre(id, nome, datas, valor)VALUES('','$nome', '$dataN', '$valor')";
 
 if (mysqli_query($link, $sql)) {
       echo "Cadastro com sucesso";
